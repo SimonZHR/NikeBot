@@ -1,0 +1,18 @@
+{
+   "browser_action": {
+      "default_title": "Nike bot"
+   },
+   "content_scripts": [ {
+      "js": [ "autobuy.js" ],
+      "matches": [ "http://*.nike.com/*" ]
+   } ],
+   "description": "PreOrderHeat.Com",
+   "icons": {
+      "128": "Nike.png"
+   },
+   "manifest_version": 2,
+   "name": "PreOrderHeat Bot Size 10.5",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0",
+   "web_accessible_resources": [ "script.js" ]
+}
